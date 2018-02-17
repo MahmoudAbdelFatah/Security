@@ -12,3 +12,10 @@ D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityPackageTest\b
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityPackageTest\obj\Debug\SecurityPackageTest.csprojResolveAssemblyReference.cache
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\bin\Debug\SecurityPackageTest.dll
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\bin\Debug\SecurityPackageTest.pdb
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\bin\Debug\SecurityLibrary.dll
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\bin\Debug\SecurityLibrary.pdb
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.csprojResolveAssemblyReference.cache
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb

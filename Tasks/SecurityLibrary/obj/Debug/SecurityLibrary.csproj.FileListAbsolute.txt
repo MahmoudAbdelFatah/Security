@@ -8,3 +8,8 @@ D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\obj\D
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\bin\Debug\SecurityLibrary.dll
 D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.csprojResolveAssemblyReference.cache
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.dll
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\bin\Debug\SecurityLibrary.dll
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
+D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
