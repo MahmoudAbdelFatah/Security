@@ -1,0 +1,10 @@
+C:\Users\fcis_\Google Drive (fcis.cs.course@gmail.com)\Students\StartupCode\SecurityLibrary\bin\Debug\SecurityLibrary.dll
+C:\Users\fcis_\Google Drive (fcis.cs.course@gmail.com)\Students\StartupCode\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
+C:\Users\fcis_\Google Drive (fcis.cs.course@gmail.com)\Students\StartupCode\SecurityLibrary\obj\Debug\SecurityLibrary.csprojResolveAssemblyReference.cache
+C:\Users\fcis_\Google Drive (fcis.cs.course@gmail.com)\Students\StartupCode\SecurityLibrary\obj\Debug\SecurityLibrary.dll
+C:\Users\fcis_\Google Drive (fcis.cs.course@gmail.com)\Students\StartupCode\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
+D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\obj\Debug\SecurityLibrary.csprojResolveAssemblyReference.cache
+D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\obj\Debug\SecurityLibrary.dll
+D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
+D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\bin\Debug\SecurityLibrary.dll
+D:\FCIS -Year 4\Second Term\security\labs\Section 1\task 1\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
