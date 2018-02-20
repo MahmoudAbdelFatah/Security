@@ -66,11 +66,14 @@ namespace SecurityLibrary
              }
              if (plainText[plainText.Length - 1] == 'x')
                   plainText = plainText.Remove(plainText.Length - 1, 1);
-             for (int i = 1; i < plainText.Length-1; i++)
-                  if (plainText[i] == 'x')
-                       if (plainText[i - 1] == plainText[i + 1])
-                            plainText = plainText.Remove(i, 1);
 
+             System.Text.StringBuilder plain = new System.Text.StringBuilder(plainText);
+
+             for (int i = 1; i < plainText.Length - 1; i++)
+                  if (plain[i] == 'x' && i%2 != 0 && plain[i - 1] == plain[i + 1])
+                            plain[i] = '-';
+
+             plainText = plain.ToString().Replace("-", string.Empty);
              return plainText;
         }
 
@@ -107,12 +110,14 @@ namespace SecurityLibrary
                   }
              }
              plainText = plainText.Replace(" ", string.Empty);
-             for (int i = 0; i < plainText.Length - 1; i++)
+
+             for (int i = 0; i < plainText.Length -1 ; i+=2)
                   if (plainText[i] == plainText[i + 1])
                        plainText = plainText.Insert(i + 1, "x");
-
+                       
              if (plainText.Length % 2 != 0)
                   plainText = plainText + "x";
+
              string cipherText = "";
              for (int i = 0; i < plainText.Length - 1; i += 2)
              {
