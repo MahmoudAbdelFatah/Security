@@ -12,9 +12,42 @@ namespace SecurityLibrary
         
         public string Analyse(string plainText, string cipherText)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+             plainText = plainText.ToLower();
+             cipherText = cipherText.ToLower();
+             HashSet<char> alphapets = new HashSet<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+             HashSet<char> keys = new HashSet<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+             char[] key = new char[26];
+             //Array.Clear(key, 0, key.Length -1);
+             int k = 0;
+             for(int i=0 ; i<alphapets.Count ; i++)
+             {
+                  for(int j=0 ; j<plainText.Length ; j++)
+                  {
+                       if(plainText[j] == alphapets.ElementAt(i))
+                       {
+                            key[k] = cipherText[j];
+                            keys.Remove(cipherText[j]);
+                            alphapets.Remove(plainText[j]);
+                            i--;
+                            break;
+                       }
+                  }
+                  k++;
+             }
+             string s = "";
+             for (int i = 0; i < 26; i++)
+             {
+                  if(key[i] == '\0')
+                  {
+                       key[i] = keys.First();
+                       keys.Remove(keys.First());
+                  }
+                  s += key[i];
+             }
+             return s;
         }
-
+         
         public string Decrypt(string cipherText, string key)
         {
             //throw new NotImplementedException();
@@ -97,25 +130,32 @@ namespace SecurityLibrary
         /// <param name="cipher"></param>
         /// <returns>Plain text</returns>
         public string AnalyseUsingCharFrequency(string cipher)
-        {
+        { 
             //throw new NotImplementedException();
+             bool[] checkForChar = new bool[cipher.Length];
              cipher = cipher.ToLower();
-             int[] count = new int[123];
-             char[] alphapets = new char[] {'e','t','a','o','i','n','s','r','h','l','d','c','u','m','f','p','g','w','y','b','v','k','x','j','q','z'};
+             int[] count = new int[26];
+             char[] alphapetsFrequency = new char[] {'e','t','a','o','i','n','s','r','h','l','d','c','u','m','f','p','g','w','y','b','v','k','x','j','q','z'};
+
+             char[] alphapets = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
              Array.Clear(count, 0, count.Length);
 
              for(int i=0 ; i <cipher.Length ; i++)
-                  count[(int)cipher[i]]++;
-
-             for (int i = 0; i < 26; i++)
+                  count[(int)cipher[i]-97]++;
+            
+             Array.Sort(count, alphapets);
+             System.Text.StringBuilder cipherBuilder = new System.Text.StringBuilder(cipher);
+             for (int i = 25; i>= 0; i--)
              {
-                  int maxIndex = Array.IndexOf(count, count.Max());
-                  cipher = cipher.Replace((char)maxIndex, alphapets[i]);
-                  count[maxIndex] = 0;
+                  for(int j=0; j<cipher.Length; j++) {
+                       if(cipher[j] == alphapets[i] && !checkForChar[j]) {
+                            cipherBuilder[j] = alphapetsFrequency[25-i];
+                            checkForChar[j]=true;
+                       }
+                  }
              }
 
-
-               return cipher;
+               return cipherBuilder.ToString();
         }
 
 
