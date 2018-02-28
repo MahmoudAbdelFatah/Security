@@ -39,11 +39,9 @@ namespace SecurityLibrary
                   throw new Exception();
              plainText = plainText.ToLower();
              cipherText = cipherText.ToLower();
-             for(int i = 0; i < 26 ; i++)
-                  if (cipherText[0] == (char)((((int)plainText[0] - 97 + i) % 26) + 97))
-                       return i;
-         
-             return -1;
+             return ((cipherText[0] - plainText[0])+26)%26;
+
+            
         }
     }
 }
