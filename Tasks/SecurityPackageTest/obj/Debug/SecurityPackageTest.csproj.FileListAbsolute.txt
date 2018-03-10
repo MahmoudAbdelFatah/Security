@@ -19,3 +19,10 @@ D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\bi
 D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.csprojResolveAssemblyReference.cache
 D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
 D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\bin\Debug\SecurityPackageTest.dll
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\bin\Debug\SecurityLibrary.dll
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\bin\Debug\SecurityLibrary.pdb
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.csprojResolveAssemblyReference.cache
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.dll
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\obj\Debug\SecurityPackageTest.pdb
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityPackageTest\bin\Debug\SecurityPackageTest.pdb
