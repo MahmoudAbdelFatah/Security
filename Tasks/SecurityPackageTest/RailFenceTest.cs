@@ -73,7 +73,7 @@ namespace SecurityPackageTest
         {
             RailFence algorithm = new RailFence();
             int key = algorithm.Analyse(mainPlain1, mainCipher2);
-            int key2 = algorithm.Analyse(mainPlain1, mainCipher3);
+            int key2 = algorithm.Analyse(mainPlain2, mainCipher3);
             Assert.IsTrue(mainKey2 ==  key || mainKey2 == key2);
         }
 

@@ -21,6 +21,7 @@ namespace SecurityLibrary
         public string Encrypt(string plainText, List<int> key)
         {
             throw new NotImplementedException();
+
         }
     }
 }
