@@ -15,6 +15,6 @@ D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\bin\De
 D:\FCIS -Year 4\Second Term\security\Security Tasks\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
 E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\bin\Debug\SecurityLibrary.dll
 E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\bin\Debug\SecurityLibrary.pdb
+E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.csprojResolveAssemblyReference.cache
 E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.dll
 E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.pdb
-E:\4th Year\2nd semester\Security\code\Security\Tasks\SecurityLibrary\obj\Debug\SecurityLibrary.csprojResolveAssemblyReference.cache
