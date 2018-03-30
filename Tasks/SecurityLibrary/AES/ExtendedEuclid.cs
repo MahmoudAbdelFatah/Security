@@ -21,8 +21,10 @@ namespace SecurityLibrary.AES
             int _Q, _A1, _A2, _A3, _B1, _B2, _B3;
             while (true)
             {
-                if (B3 == 0 || B3 == 1)
+                if (B3 == 1)
                     break;
+                if (B3 == 0)
+                    return -1;
                 _Q = A3 / B3;
                 _A1 = B1;
                 _A2 = B2;
@@ -40,10 +42,10 @@ namespace SecurityLibrary.AES
 
             }
             while (B2 < 0)
-                B2 += 26;
+                B2 += baseN;
 
-            if (B2 >= 26)
-                B2 = B2 % 26;
+            if (B2 >= baseN)
+                B2 = B2 % baseN;
             return B2;
         } 
     }
