@@ -49,6 +49,7 @@
     <Compile Include="DiffieHellman\DiffieHellman.cs" />
     <Compile Include="MainAlgorithms\HillCipher.cs" />
     <Compile Include="CryptographicTechnique.cs" />
+    <Compile Include="ElGamal\ELGAMAL.cs" />
     <Compile Include="MD5\MD5.cs" />
     <Compile Include="MainAlgorithms\PlayFair.cs" />
     <Compile Include="MainAlgorithms\RailFence.cs" />
